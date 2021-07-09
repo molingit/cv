@@ -3,23 +3,36 @@ body{
   text-align: center;
 /*  font-family: serif;*/
   font-family: 'Josefin Sans', sans-serif;
-/*font-family: 'Sacramento', cursive;*/
   font-size:  1.5em;
 }
 h1{
-  font-family: 'Montserrat Alternates', sans-serif;
-  margin:0px;
+  font-size: 5rem;
+  /*font-family: 'Montserrat Alternates', sans-serif;*/
+  font-family: 'Sacramento', cursive;
+  margin:50px;
+  color: #3C8DAD;
+  line-height:1em;
+}
+h2{
+  font-size: 2.5rem;/*40px;*/
+  color: #01937C;
+}
+h3{
+  color: #11999E
 }
 hr {
    border-style: dotted none  none;
-   //height: 0px;
+   height: 0px;
    width: 98%;
    border-color: #B5EAEA;
    border-width: 5px;
-//      background-color:#B5EAEA;
+   background-color:#B5EAEA;
  }
  p{
    color:#5D534A;
+ }
+ span{
+   font-weight: bold;
  }
 /***********************************/
 .top_container{
