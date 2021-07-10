@@ -18,7 +18,9 @@ h2{
   color: #01937C;
 }
 h3{
-  color: #11999E
+  color: #11999E;
+  /* line-height: 0.5; */
+
 }
 hr {
    border-style: dotted none  none;
@@ -30,40 +32,84 @@ hr {
  }
  p{
    color:#5D534A;
+   /* line-height: 0.4 */
  }
  span{
    font-weight: bold;
  }
+
 /***********************************/
-.top_container{
+.top-container{
   background-color: #E4F9F5;
   position: relative;
   padding-top: 50px;
-
-}.top_cloud{
+}
+.top_cloud{
   position: relative;
   left: 20%
 }
 .bottom_cloud{
   position: absolute;
 }
+.profile{
+  margin-bottom: 50px;
+}
 /***********************************/
 .middle-container{
   background-color: #F9F9F9;
   padding:50px;
-
+}
+.profile{
+  width: 50%;
+  margin: 0px auto 50px auto;
+  text-align: left;
 }
 .usagi {
-  height: 200px;
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+  padding-bottom: 30px;
 }
+.skill-row{
+  width: 50%;
+  margin: 0px auto 0px auto;
+  text-align: left;
+}
+
+.skills{
+  margin: 50px auto  50px auto;
+}
+
 .ugoky {
-  height: 200px;
+  text-align: center;
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+/***********************************/
+.contact-me{
+  width: 50%;
+  margin: 50px auto  50px auto;
+}
+
+.sayHello{
+  text-align: left;
+
+}
+
+
+.molingit {
+  width: 25%;
+float: left;
+  margin-right: 30px;
+}
+
+
+.invitations{
+  /* clear:left; */
 }
 /***********************************/
 .bottom-container{
   background-color: #D6D2C4;
   padding:50px;
-}
-.molingit {
-  height: 200px;
 }
