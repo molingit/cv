@@ -88,12 +88,12 @@ hr {
 }
 /***********************************/
 .contact-me{
-  width: 50%;
-  margin: 50px auto  50px auto;
+  /* width: 50%; */
+  margin: 50px auto  0px auto;
 }
 
 .sayHello{
-  text-align: left;
+  /* text-align: left; */
 
 }
 
@@ -104,7 +104,6 @@ float: left;
   margin-right: 30px;
 }
 
-
 .invitations{
   /* clear:left; */
 }
@@ -112,4 +111,46 @@ float: left;
 .bottom-container{
   background-color: #D6D2C4;
   padding:50px;
+}
+
+.button_contactMe {
+   background: #D6D2C4;
+   background-image: -webkit-linear-gradient(top, #D6D2C4, #988951);
+   background-image: -moz-linear-gradient(top, #D6D2C4, #988951);
+   background-image: -ms-linear-gradient(top, #D6D2C4, #988951);
+   background-image: -o-linear-gradient(top, #D6D2C4, #988951);
+   background-image: -webkit-gradient(to bottom, #D6D2C4, #988951);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 15px;
+   -webkit-box-shadow: 1px 1px 20px 0 #FFFFFF;
+   -moz-box-shadow: 1px 1px 20px 0 #FFFFFF;
+   box-shadow: 1px 1px 20px 0 #FFFFFF;
+   text-shadow: 1px 1px 20px #FFFFFF;
+   border: solid #FFFFFF 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   clear:left;
+}
+
+.button_contactMe:hover {
+   border: solid #FFFFFF 1px;
+   background: #AEE8AE;
+   background-image: -webkit-linear-gradient(top, #AEE8AE, #33A244);
+   background-image: -moz-linear-gradient(top, #AEE8AE, #33A244);
+   background-image: -ms-linear-gradient(top, #AEE8AE, #33A244);
+   background-image: -o-linear-gradient(top, #AEE8AE, #33A244);
+   background-image: -webkit-gradient(to bottom, #AEE8AE, #33A244);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+      clear:left;
 }
